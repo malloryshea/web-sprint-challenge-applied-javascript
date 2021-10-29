@@ -51,16 +51,25 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 ## Submission format
 
 - [x ] Submit via Codegrade by committing and pushing any new changes to the *main* branch.
-- [ ] Check Codegrade for automated feedback.
-- [ ] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
-- [ ] Any changes pushed after the deadline will not receive any feedback.
+- [ x] Check Codegrade for automated feedback.
+- [ x] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
+- [ x] Any changes pushed after the deadline will not receive any feedback.
 
 ## Interview Questions
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+The DOM is the Document Object Model of a page. The DOM defines a standard for accessing documents. With the HTML DOM, JavaScript can access and change all the elements of an HTML document.
+
 2. What is an event?
+An event is an action or occurrence that happens in the system you are programming. The system produces a signal of some kind when an event occurs, it then provides a mechanism by which an action can be automatically taken when the event occurs.
+
 3. What is an event listener?
+An event listener allows us to add functionality to HTML elements by “listening” to different events that take place on the page, such as when the user clicks a button, presses a key, or when an element loads.
+
 4. Why would we convert a NodeList into an Array?
+You would convert a NodeList into an Array in order to have access to the functions that Javascript ES6 allows.
+
 5. What is a component?
+A component brings together HTML, CSS, or JavaScript for reuse in a website or application. 
