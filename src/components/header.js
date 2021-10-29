@@ -1,19 +1,20 @@
 const Header = (title, date, temp) => {
-    const head = document.createElement('div')
-     const span = document.createElement('span')
-     const titleElement = document.createElement('h1')
-     const tempElement = document.createElement('span')
-     head.classList.add ('header')
-     span.classList.add('date')
-     tempElement.classList.add('temp')
-     span.textContent = date
-    
-     titleElement.textContent = title 
+    const head = document.createElement('div');
+     const span = document.createElement('span');
+     const titleElement = document.createElement('h1');
+     const tempElement = document.createElement('span');
+     
+     head.classList.add ('header');
+     span.classList.add('date');
+     tempElement.classList.add('temp');
+     
+     span.textContent = date;
+     titleElement.textContent = title ;
      tempElement.textContent = temp;
     
-     head.appendChild(span)
-     head.appendChild(titleElement)
-     head.appendChild(tempElement)
+     head.appendChild(span);
+     head.appendChild(titleElement);
+     head.appendChild(tempElement);
     
      return head;
   // TASK 1
@@ -31,8 +32,8 @@ const Header = (title, date, temp) => {
 }
 
 const headerAppender = (selector) => {
-  const headerSpace = document.querySelector(selector)
-  headerSpace.append(Header('Coding Times', '10/29/2021', '50 degrees' ))
+  const headerSpace = document.querySelector(selector);
+  headerSpace.append(Header('Coding Times', '10/29/2021', '50 degrees' ));
 }
 
 
