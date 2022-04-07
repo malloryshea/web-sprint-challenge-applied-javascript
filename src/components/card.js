@@ -10,7 +10,7 @@ const Card = (article) => {
   card.appendChild(headline);
   card.appendChild(author);
   author.appendChild(imgContainer);
-  imgContainer.appendChild(authorimg);
+  imgContainer.appendChild(authorImg);
   author.appendChild(authorName);
 
   card.classList.add("card");
